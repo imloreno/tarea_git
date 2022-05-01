@@ -10,7 +10,7 @@ const mostrarMenu = () => {
 		output : process.stdout
 	})
 	readline.question('Ingrese su nombre: ', (opt)=>{
-		console.log("Hola "+opt.green+", espero que tengas un buen día.");
+		console.log("Hola "+opt.green+`, espero que tengas un buen día, y que ${"Dios".yellow} te bendiga!!!` );
 		readline.close();
 	})
 }
